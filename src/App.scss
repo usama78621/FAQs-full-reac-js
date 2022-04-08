@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #dadada;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  margin-top: 2rem;
+  padding: 0rem 2rem;
+}
+.container {
+  width: 90vw;
+  max-width: 920px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  display: grid;
+  gap: 1rem 2rem;
+  border-radius: 0.5rem;
+}
+.all {
+  display: flex;
+  justify-content: space-between;
+}
+.qusetion {
+  padding: 1rem 1.5rem;
+  border: 2px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+.qusetion h4 {
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: 0.03rem;
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+}
+.qusetion p {
+  color: grey;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+.qusetion header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qusetion header h4 {
+  margin-bottom: 0;
+}
+.btn {
+  background: transparent;
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  background: #eae6eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+@media only screen and (max-width: 700px) {
+  .data {
+    display: none;
+  }
+  .qusetion {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.data {
+  background: #f4f3f3;
+  border: 2px solid #eae6eb;
+  width: 25%;
+  max-height: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
